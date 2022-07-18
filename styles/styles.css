@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+.parentContainer {
+    width: 100vw;
+    heigth: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.row1 {
+    display: flex;
+    flex-direction: row;
+    height: 16.666vh;
+}
+.row1Col1 {
+    background-color: #F0223B;
+    width: 66.666%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.row1Col2 {
+    background-color: #FA23A9;
+    width: 33.333%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.row2 {
+    display: flex;
+    flex-direction: row;
+    height: 66.666vh;
+}
+.row2Col1 {
+    background-color: #8D0E96;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.row2Col2 {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.row2Col2Subrow1 {
+    background-color: #14E3B5;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.row2Col2Subrow2 {
+    background-color: #15967A;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row3 {
+    display: flex;
+    flex-direction: row;
+    height: 16.666vh;
+}
+.row3Col1 {
+    justify-content: center;
+    background-color: #D72BE3;
+    width: 33.333%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+.row3Col2 {
+    justify-content: start;
+    background-color: #F34AFF;
+    width: 33.333%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.row3Col3 {
+    justify-content: center;
+    background-color: #7BE32B;
+    width: 33.333%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
